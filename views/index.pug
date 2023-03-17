@@ -1,0 +1,108 @@
+meta(charset="UTF-8")
+meta(http-equiv="X-UA-Compatible", content="IE=edge")
+meta(name="viewport", content="width=device-width,initial-scale=1")
+title Best online Food Delivery Service in India | MyOnlineMeal.com
+link(rel="stylesheet", href="../static/style.css")
+link(rel="stylesheet", media="screen and (max-width: 970px)", href="../static/phone.css")
+link(rel="preconnect", href="https://fonts.googleapis.com")
+link(rel="preconnect", href="https://fonts.gstatic.com", crossorigin)
+link(href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap", rel="stylesheet")
+//  fav-icon 
+link(rel="apple-touch-icon", sizes="57x57", href="logo.png")
+link(rel="apple-touch-icon", sizes="60x60", href="logo.png")
+link(rel="apple-touch-icon", sizes="72x72", href="logo.png")
+link(rel="apple-touch-icon", sizes="76x76", href="logo.png")
+link(rel="apple-touch-icon", sizes="114x114", href="logo.png")
+link(rel="apple-touch-icon", sizes="120x120", href="logo.png")
+link(rel="apple-touch-icon", sizes="144x144", href="logo.png")
+link(rel="apple-touch-icon", sizes="152x152", href="logo.png")
+link(rel="apple-touch-icon", sizes="180x180", href="logo.png")
+link(rel="icon", type="image/png", sizes="192x192", href="logo.png")
+link(rel="icon", type="image/png", sizes="32x32", href="logo.png")
+link(rel="icon", type="image/png", sizes="96x96", href="logo.png")
+link(rel="icon", type="image/png", sizes="16x16", href="logo.png")
+link(rel="manifest", href="/manifest.json")
+meta(name="msapplication-TileColor", content="#ffffff")
+meta(name="msapplication-TileImage", content="/ms-icon-144x144.png")
+meta(name="theme-color", content="#ffffff")
+nav#navbar
+  #logo
+    img(src="../static/img/logo.png", alt="MyOnlineMeal.com")
+  ul
+    li.iteam
+      a(href="/") Home
+    li.iteam
+      a(href="/about") About Us
+    li.iteam
+      a(href="/contact") Contact Us
+    li.iteam#login
+      a(href="/login") Login/Logout
+section#home
+  h1.h-primary Welcome to MyOnlineMyMeal
+  p.
+    
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa maiores incidunt porro veniam doloremque consequuntur! Nihil nulla error
+    
+  p.
+    
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ad aliq
+    
+  button.btn Order Now
+section.services-container
+  h1.h-primary.center Our Services
+  #services
+    .box
+      img(src="../static/img/png1.png", alt)
+      h2.h-secondary.center Food Catering
+      p.
+        
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias dolores ab debitis illo suscipit optio soluta fuga. Ut doloremque aliquid consequatur molestias et. Magnam, modi! Ipsa, laudantium sequi error recusandae voluptatem aspernatur asperiores quas.
+        
+    .box
+      img(src="../static/img/png2.png", alt)
+      h2.h-secondary.center Bulk Ordering
+      p.
+        
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias dolores ab debitis illo suscipit optio soluta fuga. Ut doloremque aliquid consequatur molestias et. Magnam, modi! Ipsa, laudantium sequi error recusandae voluptatem aspernatur asperiores quas.
+        
+    .box
+      img(src="../static/img/png3.png", alt)
+      h2.h-secondary.center Food Ordering
+      p.
+        
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias dolores ab debitis illo suscipit optio soluta fuga. Ut doloremque aliquid consequatur molestias et. Magnam, modi! Ipsa, laudantium sequi error recusandae voluptatem aspernatur asperiores quas.
+        
+section#client-section
+  h1.h-primary.center Our Clients
+  #clients
+    .client-item
+      img(src="../static/img/logo-1.png", alt="Our client")
+    .client-item
+      img(src="../static/img/logo-2.png", alt="Our client")
+    .client-item
+      img(src="../static/img/logo-3.png", alt="Our client")
+    .client-item
+      img(src="../static/img/logo-4.png", alt="Our client")
+section#contact
+  h1.h-primary.center Contact Us
+  #contact-box
+    form(action="/contact",method ="post" class="myForm")
+      .form-group
+        label(for="name") Name:
+        input#name(type="text", name="name", placeholder="Enter Your Name")
+      .form-group
+        label(for="email") Email:
+        input#email(type="email", name="name", placeholder="Enter Your Email ")
+      .form-group
+        label(for="phone") Phone No:
+        input#phone(type="phone", name="name", placeholder="Enter Your Mobile No")
+      .form-group
+        label(for="message") Message:
+        textarea#message(name="message", cols="30", rows="10")
+      .form-group
+        button.s_btn Send Message
+footer
+  .center.
+    
+    Copyright © | wwww.MyOnlineMeal.com. | All right reserved!
+    

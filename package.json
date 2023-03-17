@@ -1,0 +1,23 @@
+{
+  "name": "xenon",
+  "version": "1.0.0",
+  "description": "this is project",
+  "main": "2",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "raj"
+  ],
+  "author": "Rajmohit kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongo": "^0.1.0",
+    "mongoose": "^7.0.2",
+    "mongose": "^0.0.2-security",
+    "nodemon": "^2.0.21",
+    "pug": "^3.0.2"
+  }
+}
